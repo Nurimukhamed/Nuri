@@ -1,0 +1,140 @@
+/* Basic Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f8fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #6200ea;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0.5em 0 0;
+    font-size: 1.2em;
+}
+
+/* Section Styling */
+section {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #6200ea;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #6200ea;
+    display: inline-block;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    background-color: #f9f9f9;
+}
+
+th {
+    background-color: #6200ea;
+    color: white;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #6200ea;
+    color: white;
+    text-align: center;
+    padding: 1.5em 0;
+    margin-top: 30px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for contact links */
+footer a {
+    color: #ffeb3b; /* Ярко-желтый цвет для видимости */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Layout Styling using Flexbox */
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+li {
+    margin: 0 15px;
+    text-align: center;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Link Styling */
+a {
+    color: #6200ea;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        margin: 10px 0;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
